@@ -14,14 +14,14 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-h2{
-    font-size: 16px;
-    color:#e65c00 ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+h6{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 20px 20px;
+  }
 
 h4{
-    color: #f1f1f1;
+    color: #000000;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -152,18 +152,11 @@ h2 {
 }
 
 .orange-box {
-    background-color: #e65c00;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 15px;
     max-width: 1000px;
     margin: 0 auto;
-}
-
-table {
-    width: 100%;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 
 .logo{
