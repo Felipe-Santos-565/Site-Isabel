@@ -1,0 +1,5 @@
+// script.js
+document.getElementById('menu-icon').addEventListener('click', function() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('nav-active'); // Alterna a classe nav-active
+});

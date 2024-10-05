@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: #000066; /* Cor do fundo do cabeçalho */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+p {
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #000066; /* Cor do fundo do rodapé */
+    padding: 20px 0;
+    position: relative; 
+    width: 100%;
+    bottom: 0; 
+}
+
+.footer p {
+    margin: 0;
+    text-align: center; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Mantém a logo e os links nos extremos da navbar */
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px; /* Defina a altura da logo */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto; /* Isso empurra os links para a direita */
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none;
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Cor do texto ao passar o mouse */
+}
+
+.menu-icon {
+    display: none; /* Inicialmente oculto em telas grandes */
+    cursor: pointer;
+    color: white; /* Cor do ícone do menu */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Ocultar links na versão móvel por padrão */
+        flex-direction: column;
+        position: absolute;
+        background: #000066; /* Cor do fundo do menu */
+        width: 100%;
+        top: 60px; /* Altura da navbar */
+        left: 0;
+        padding: 10px 0;
+        z-index: 1000; /* Certifique-se de que a lista de links aparece sobre outros elementos */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Margem para cada item */
+        text-align: center; /* Centralizar texto nos itens do menu */
+    }
+
+    .menu-icon {
+        display: block; /* Mostrar o ícone de menu em telas pequenas */
+        font-size: 40px;
+    }
+
+    .nav-active {
+        display: flex; /* Mostrar links quando a classe nav-active estiver presente */
+    }
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 2rem;
+    }
+ 
+    .footer p {
+        text-align: end;
+        margin-left: 52px;
+    }
+}
+
+
+main {
+    padding: 20px; /* Mantido conforme solicitado */
+    text-align: center; /* Mantido conforme solicitado */
+}
+
+h2 {
+    color: #e65c00;
+    font-size: 2.5rem;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.orange-box {
+    background-color: #e65c00;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 1000px;
+    margin: 0 auto; /* Centraliza a caixa laranja */
+}
+
+table {
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo{
+    font-size: large;
+    color: #f1f1f1;
+}
+
+
